@@ -5,10 +5,12 @@ const Experience = () => {
   const experiences = [
     {
       title: "Senior QA Engineer",
-      company: "Tech Solutions Inc.",
+      company: "Publicis Groupe",
+      icon: <img className="w-23 h-23" src='/public/FC.jpg' />,
+      gradient: "from-blue-100 to-cyan-100",
+    
       location: "Remote",
-      period: "2022 - Present",
-      duration: "2+ years",
+      period: "Oct-2022 - Present",
       responsibilities: [
         "Led a team of 5 QA engineers in implementing comprehensive testing strategies",
         "Developed and maintained automated test suites using Selenium and TestNG",
@@ -18,11 +20,10 @@ const Experience = () => {
       ]
     },
     {
-      title: "QA Engineer",
-      company: "Digital Innovations Ltd.",
-      location: "Bangalore, India",
-      period: "2020 - 2022",
-      duration: "2 years",
+      title: "Software Test Engineer",
+      company: "QualiteSoft",
+      location: "Chandigarh, India",
+      period: "May 2019 - Oct 2022",
       responsibilities: [
         "Executed comprehensive test plans for web and mobile applications",
         "Implemented API testing using Postman and RestAssured",
@@ -32,11 +33,10 @@ const Experience = () => {
       ]
     },
     {
-      title: "Junior QA Engineer",
-      company: "StartUp Ventures",
-      location: "Mumbai, India",
-      period: "2018 - 2020",
-      duration: "2 years",
+      title: "Research Analyst",
+      company: "Silicon India",
+      location: "Bangalore, India",
+      period: "Dec 2017 - Mar 2019",
       responsibilities: [
         "Conducted manual testing for web applications across multiple browsers",
         "Developed test cases and test scenarios based on requirements",
@@ -44,7 +44,20 @@ const Experience = () => {
         "Collaborated with development team to resolve defects",
         "Gained expertise in testing tools and methodologies"
       ]
-    }
+    },
+    {
+      title: "Associate Customer Support",
+      company: "Tech Mahendra",
+      location: "Chandigarh, India",
+      period: "Mar 2016 - Oct 2016",
+      responsibilities: [
+        "Executed comprehensive test plans for web and mobile applications",
+        "Implemented API testing using Postman and RestAssured",
+        "Performed database testing and validation using SQL queries",
+        "Participated in Agile ceremonies and sprint planning",
+        "Created detailed test documentation and bug reports"
+      ]
+    },
   ];
 
   return (
@@ -91,9 +104,9 @@ const Experience = () => {
                     </div>
                   </div>
 
-                  <div className="inline-block bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
+                  {/* <div className="inline-block bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
                     {exp.duration}
-                  </div>
+                  </div> */}
 
                   <ul className="space-y-2">
                     {exp.responsibilities.map((resp, respIndex) => (

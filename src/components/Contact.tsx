@@ -29,26 +29,25 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "akash.sihol@email.com",
+      value: "aksihol216@gmail.com",
       link: "mailto:akash.sihol@email.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      value: "+91 9876543210",
-      link: "tel:+919876543210"
+      value: "+91 93809-48319",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Bangalore, India",
-      link: "#"
+      value: "Dharmshala HP, India",
+      link: "#" 
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       title: "LinkedIn",
-      value: "/in/akash-sihol",
-      link: "https://linkedin.com/in/akash-sihol"
+      value: "",
+      link: "https://www.linkedin.com/in/akash-sihol-9004b932/"
     }
   ];
 

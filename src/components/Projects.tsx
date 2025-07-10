@@ -4,7 +4,7 @@ import { ExternalLink, Github, TestTube, Bug, Zap } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Testing Suite",
+      title: "Citroen",
       description: "Comprehensive automated testing framework for a major e-commerce platform covering user registration, product search, cart functionality, and payment processing.",
       technologies: ["Selenium", "TestNG", "Java", "Maven", "Jenkins"],
       achievements: [
@@ -12,11 +12,36 @@ const Projects = () => {
         "Achieved 95% test coverage",
         "Identified 150+ critical bugs"
       ],
-      icon: <TestTube className="w-8 h-8" />,
-      gradient: "from-blue-500 to-cyan-500"
+    
+      icon: <img className="w-63 h-63" src='/public/CT.png' />,
+      gradient: "from-blue-100 to-cyan-100"
     },
     {
-      title: "Mobile Banking App QA",
+      title: "Redington",
+      description: "Comprehensive automated testing framework for a major e-commerce platform covering user registration, product search, cart functionality, and payment processing.",
+      technologies: ["Selenium", "TestNG", "Java", "Maven", "Jenkins"],
+      achievements: [
+        "Reduced testing time by 70%",
+        "Achieved 95% test coverage",
+        "Identified 150+ critical bugs"
+      ],
+      icon: <img className="w-63 h-63" src='/public/RG.png' />,
+      gradient: "from-blue-100 to-cyan-100"
+    },
+    {
+      title: "FreightClub",
+      description: "Comprehensive automated testing framework for a major e-commerce platform covering user registration, product search, cart functionality, and payment processing.",
+      technologies: ["Selenium", "TestNG", "Java", "Maven", "Jenkins"],
+      achievements: [
+        "Reduced testing time by 70%",
+        "Achieved 95% test coverage",
+        "Identified 150+ critical bugs"
+      ],
+      icon: <img className="w-63 h-63" src='/public/FC.jpg' />,
+      gradient: "from-blue-100 to-cyan-100"
+    },
+    {
+      title: "Cymax",
       description: "End-to-end testing of a mobile banking application including security testing, usability testing, and performance optimization across iOS and Android platforms.",
       technologies: ["Appium", "Python", "Pytest", "Charles Proxy", "JIRA"],
       achievements: [
@@ -24,11 +49,11 @@ const Projects = () => {
         "Improved app performance by 40%",
         "Zero critical bugs in production"
       ],
-      icon: <Bug className="w-8 h-8" />,
-      gradient: "from-purple-500 to-pink-500"
+      icon: <img className="w-63 h-63" src='/public/CM.png' />,
+      gradient: "from-blue-100 to-cyan-100"
     },
     {
-      title: "API Testing Framework",
+      title: "ChannelGate",
       description: "Developed a robust API testing framework for microservices architecture, including automated contract testing and performance validation.",
       technologies: ["RestAssured", "Java", "Cucumber", "Docker", "Postman"],
       achievements: [
@@ -36,17 +61,19 @@ const Projects = () => {
         "Reduced API response time issues by 80%",
         "Implemented continuous testing pipeline"
       ],
-      icon: <Zap className="w-8 h-8" />,
-      gradient: "from-green-500 to-teal-500"
+      icon: <img className="w-63 h-63" src='/public/CG.png' />,
+      gradient: "from-blue-100 to-cyan-100"
     }
+    
   ];
 
   const certifications = [
-    "ISTQB Foundation Level Certified",
+    // "ISTQB Foundation Level Certified",
     "Selenium WebDriver Certification",
     "Agile Testing Certification",
     "API Testing with Postman",
-    "Mobile Testing Specialist"
+    "Cypress Automation Testing",
+    "Database Testing",
   ];
 
   return (

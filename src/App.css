@@ -37,6 +37,11 @@
   padding: 2em;
 }
 
+#experience .py-20 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .read-the-docs {
   color: #888;
 }

@@ -27,7 +27,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            6 Years of Excellence in Quality Assurance | Ensuring Software Excellence Through Rigorous Testing & Automation
+            6+ Years of Excellence in Quality Assurance | Ensuring Software Excellence Through Rigorous Testing & Automation
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -52,13 +52,13 @@ const Hero = () => {
             </div>
             
             <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
-              <div className="text-3xl font-bold text-purple-600 mb-2">500+</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">10,000+</div>
               <div className="text-gray-700 font-medium">Test Cases Written</div>
             </div>
             
             <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
-              <div className="text-3xl font-bold text-pink-600 mb-2">50+</div>
-              <div className="text-gray-700 font-medium">Projects Tested</div>
+              <div className="text-3xl font-bold text-pink-600 mb-2">10+</div>
+              <div className="text-gray-700 font-medium">Products Tested</div>
             </div>
           </div>
         </div>

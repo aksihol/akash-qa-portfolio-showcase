@@ -9,49 +9,39 @@ const Skills = () => {
         "Manual Testing",
         "Automated Testing",
         "Regression Testing",
-        "Performance Testing",
         "API Testing",
         "Mobile Testing",
-        "Cross-browser Testing",
         "User Acceptance Testing"
       ]
     },
     {
       title: "Automation Tools",
       skills: [
+        "Playwright",
+        "cypress",
         "Selenium WebDriver",
         "TestNG",
         "JUnit",
-        "Cucumber",
         "Postman",
-        "RestAssured",
-        "Appium",
-        "Jenkins"
       ]
     },
     {
       title: "Programming Languages",
       skills: [
         "Java",
-        "Python",
         "JavaScript",
         "SQL",
         "HTML/CSS",
-        "C#",
-        "Bash Scripting"
       ]
     },
     {
       title: "Tools & Technologies",
       skills: [
         "JIRA",
-        "Azure DevOps",
         "Git/GitHub",
-        "Docker",
         "MySQL",
-        "MongoDB",
-        "AWS",
-        "Agile/Scrum"
+        "Agile/Scrum",
+        "BrowserStack"
       ]
     }
   ];
@@ -95,7 +85,7 @@ const Skills = () => {
         </div>
 
         {/* Skill Level Indicators */}
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <h3 className="text-2xl font-bold text-center text-gray-800 mb-8">Proficiency Levels</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-md">
@@ -128,7 +118,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

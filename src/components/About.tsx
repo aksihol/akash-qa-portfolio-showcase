@@ -1,4 +1,3 @@
-
 import { Award, Target, Users, Code } from 'lucide-react';
 
 const About = () => {
@@ -56,7 +55,7 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                src="/public/tester.JPG" 
                 alt="Akash Sihol - QA Engineer" 
                 className="w-full max-w-sm mx-auto rounded-2xl shadow-lg"
               />
